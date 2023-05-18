@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+    <context:property-placeholder location="classpath:application.properties"/>
+    <bean id="connectionManager" name="connectionManager" class="by.kozlov.spring.utils.ConnectionManager">
+        <constructor-arg name="username" value="${db.username}" />
+        <constructor-arg name="password" value="${db.password}" />
+        <constructor-arg name="url" value="${db.url}" />
+        <constructor-arg name="poolSize" value="${db.pool.size}" />
+    </bean>
+
+    <bean id="userRepository" name="userRepository" class="by.kozlov.spring.database.UserRepository" >
+        <constructor-arg name="connectionManager" ref="connectionManager" />
+    </bean>
+    <bean id="companyRepository" name="companyRepository" class="by.kozlov.spring.database.CompanyRepository" >
+        <constructor-arg name="connectionManager" ref="connectionManager" />
+    </bean>
+
+    <bean id="companyReadMapper" name="companyReadMapper" class="by.kozlov.spring.mapper.CompanyReadMapper" />
+    <bean id="userReadMapper" name="userReadMapper" class="by.kozlov.spring.mapper.UserReadMapper" >
+        <constructor-arg name="companyReadMapper" ref="companyReadMapper" />
+    </bean>
+    <bean id="userService" name="userService" class="by.kozlov.spring.service.UserService" >
+        <constructor-arg name="userRepository" ref="userRepository" />
+        <constructor-arg name="userReadMapper" ref="userReadMapper" />
+    </bean>
+
+    <bean id="companyService" name="companyService" class="by.kozlov.spring.service.CompanyService" >
+        <constructor-arg name="companyRepository" ref="companyRepository" />
+        <constructor-arg name="companyReadMapper" ref="companyReadMapper" />
+    </bean>
+</beans>

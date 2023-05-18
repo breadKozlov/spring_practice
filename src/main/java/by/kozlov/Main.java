@@ -7,21 +7,19 @@ import by.kozlov.spring.mapper.UserReadMapper;
 import by.kozlov.spring.service.CompanyService;
 import by.kozlov.spring.service.UserService;
 import by.kozlov.spring.utils.ConnectionManager;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
 
-        var connectionManager = new ConnectionManager("postgres","password",
-                "jdbc:postgresql://localhost:5432/postgres","12");
-        var userRepository = new UserRepository(connectionManager);
-        var companyReadMapper = new CompanyReadMapper();
-        var companyRepository = new CompanyRepository(connectionManager);
-        var userReadMapper = new UserReadMapper(companyReadMapper);
-        var userService = new UserService(userRepository,userReadMapper);
-        var companyService = new CompanyService(companyRepository,companyReadMapper);
-        System.out.println(userService.findAll());
-        System.out.println(userService.findById(1));
-        System.out.println(companyService.findAll());
-        System.out.println(companyService.findById(1));
+        try (var context = new ClassPathXmlApplicationContext("application.xml")){
+
+            var userService = context.getBean("userService",UserService.class);
+            var companyService = context.getBean("companyService",CompanyService.class);
+
+            System.out.println();
+            System.out.println(userService.findById(1).orElseThrow());
+            System.out.println(companyService.findById(1).orElseThrow());
+        }
     }
 }
