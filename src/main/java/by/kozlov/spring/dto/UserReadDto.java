@@ -1,11 +1,16 @@
 package by.kozlov.spring.dto;
 
 import by.kozlov.spring.entity.Company;
-import lombok.Builder;
-import lombok.Value;
+import lombok.*;
+import org.springframework.stereotype.Component;
 
-@Value
+
+
 @Builder
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
 public class UserReadDto {
 
     private Integer id;

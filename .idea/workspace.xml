@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2e9ac74-5b5b-4ee4-a634-0a89d2657139" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/database/CompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/database/CompanyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/database/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/database/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/dto/CompanyCreateDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/dto/CompanyCreateDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/dto/CompanyReadDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/dto/CompanyReadDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/dto/UserCreateDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/dto/UserCreateDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/dto/UserReadDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/dto/UserReadDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/entity/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/mapper/CompanyReadMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/mapper/CompanyReadMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/mapper/UserCreateMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/mapper/UserCreateMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/mapper/UserReadMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/mapper/UserReadMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/service/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/service/CompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/utils/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/utils/ConnectionManager.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring_practice" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring_practice" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Pxlgzs7GmL9l3HSSs9BcpyI386" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Павел/IdeaProjects/spring-starter-ita",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "spring.configuration.checksum": "9273978e0e0121e2aa4b4b229ad430ac",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Павел\IdeaProjects\spring_practice\src\main\java\by\kozlov\spring\mapper" />
+      <recent name="C:\Users\Павел\IdeaProjects\spring_practice\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="by.kozlov.spring.mapper" />
+      <recent name="by.kozlov.spring.utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.kozlov.Main" />
+      <module name="spring_practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.kozlov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spring_practice [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.spring_practice [clean]" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.spring_practice [clean]" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2e9ac74-5b5b-4ee4-a634-0a89d2657139" name="Changes" comment="" />
+      <created>1684406731962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684406731962</updated>
+      <workItem from="1684406732873" duration="8404000" />
+      <workItem from="1684751167515" duration="5650000" />
+      <workItem from="1684915526802" duration="2117000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

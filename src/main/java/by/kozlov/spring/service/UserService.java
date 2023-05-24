@@ -4,12 +4,14 @@ import by.kozlov.spring.database.UserRepository;
 import by.kozlov.spring.dto.UserReadDto;
 import by.kozlov.spring.mapper.UserReadMapper;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
+@Service
 public class UserService {
 
     private final UserRepository userRepository;

@@ -3,7 +3,9 @@ package by.kozlov.spring.mapper;
 import by.kozlov.spring.dto.UserReadDto;
 import by.kozlov.spring.entity.User;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
+@Component
 @RequiredArgsConstructor
 public class UserReadMapper implements Mapper<User, UserReadDto> {
 

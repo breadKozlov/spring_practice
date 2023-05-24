@@ -1,12 +1,15 @@
 package by.kozlov.spring.entity;
 
 import lombok.*;
+import org.springframework.stereotype.Component;
 
-@Data
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 @ToString
+@Component
+@Getter
 public class User {
 
     private  Integer id;

@@ -1,10 +1,13 @@
 package by.kozlov.spring.dto;
 
-import lombok.Builder;
-import lombok.Value;
+import lombok.*;
+import org.springframework.stereotype.Component;
 
 @Builder
-@Value
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
 public class CompanyCreateDto {
     private Integer id;
     private String name;

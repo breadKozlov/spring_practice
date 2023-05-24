@@ -5,6 +5,7 @@ import by.kozlov.spring.entity.User;
 import by.kozlov.spring.exception.DaoException;
 import by.kozlov.spring.utils.ConnectionManager;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Repository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -12,18 +13,22 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@RequiredArgsConstructor
+@Repository
 public class UserRepository {
 
     private final ConnectionManager connectionManager;
 
-    private static String FIND_ALL = """
+    public UserRepository(ConnectionManager connectionManager) {
+        this.connectionManager = connectionManager;
+    }
+
+    private static final String FIND_ALL = """
             SELECT u.id,u.name,u.surname,u.email,c.id,c.name          
             FROM users_spring u
             LEFT JOIN company_spring c ON u.company = c.id
            """;
 
-    private static String FIND_BY_ID = FIND_ALL + """
+    private static final String FIND_BY_ID = FIND_ALL + """
             WHERE u.id = ?
             """;
 

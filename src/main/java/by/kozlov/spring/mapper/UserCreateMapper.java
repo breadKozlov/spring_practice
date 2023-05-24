@@ -4,7 +4,9 @@ import by.kozlov.spring.database.CompanyRepository;
 import by.kozlov.spring.dto.UserCreateDto;
 import by.kozlov.spring.entity.User;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
+@Component
 @RequiredArgsConstructor
 public class UserCreateMapper implements Mapper <UserCreateDto, User>{
 

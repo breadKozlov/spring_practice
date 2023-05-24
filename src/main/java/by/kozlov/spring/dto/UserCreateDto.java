@@ -1,12 +1,16 @@
 package by.kozlov.spring.dto;
 
 import by.kozlov.spring.entity.Company;
-import jdk.jfr.BooleanFlag;
-import lombok.Builder;
-import lombok.Value;
+import lombok.*;
+import org.springframework.stereotype.Component;
 
-@Value
+
+
 @Builder
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
 public class UserCreateDto {
     private  String name;
     private  String surname;

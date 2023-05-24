@@ -1,10 +1,9 @@
 package by.kozlov.spring.database;
 
 import by.kozlov.spring.entity.Company;
-import by.kozlov.spring.entity.User;
 import by.kozlov.spring.exception.DaoException;
 import by.kozlov.spring.utils.ConnectionManager;
-import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Repository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -12,17 +11,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@RequiredArgsConstructor
+@Repository
 public class CompanyRepository {
 
     private final ConnectionManager connectionManager;
 
-    private static String FIND_ALL = """
+    public CompanyRepository(ConnectionManager connectionManager) {
+        this.connectionManager = connectionManager;
+    }
+
+    private static final String FIND_ALL = """
             SELECT id,name          
             FROM company_spring
            """;
 
-    private static String FIND_BY_ID = FIND_ALL + """
+    private static final String FIND_BY_ID = FIND_ALL + """
             WHERE id = ?
             """;
 
