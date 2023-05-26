@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2e9ac74-5b5b-4ee4-a634-0a89d2657139" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/database/CompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/database/CompanyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/database/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/database/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/dto/CompanyCreateDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/dto/CompanyCreateDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/dto/CompanyReadDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/dto/CompanyReadDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/dto/UserCreateDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/dto/UserCreateDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/dto/UserReadDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/dto/UserReadDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/entity/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/mapper/CompanyReadMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/mapper/CompanyReadMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/mapper/UserCreateMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/mapper/UserCreateMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/mapper/UserReadMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/mapper/UserReadMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/service/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/service/CompanyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/utils/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/utils/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bb41074-b092-4a93-9cf6-353d29e88fa7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9bb41074-b092-4a93-9cf6-353d29e88fa7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/config/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kozlov/spring/config/ApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application_prod.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +34,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring_practice" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring_practice" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -82,7 +68,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Павел/IdeaProjects/spring-starter-ita",
+    "last_opened_file_path": "C:/Users/Павел/IdeaProjects/spring_practice/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,8 +85,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Павел\IdeaProjects\spring_practice\src\main\java\by\kozlov\spring\mapper" />
       <recent name="C:\Users\Павел\IdeaProjects\spring_practice\src\main\resources" />
+      <recent name="C:\Users\Павел\IdeaProjects\spring_practice\src\main\java\by\kozlov\spring\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="by.kozlov.spring.mapper" />
@@ -147,8 +133,8 @@
       <list>
         <item itemvalue="Gradle.spring_practice [clean]" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.spring_practice [clean]" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

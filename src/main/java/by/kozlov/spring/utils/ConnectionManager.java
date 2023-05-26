@@ -1,5 +1,7 @@
 package by.kozlov.spring.utils;
 
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -11,6 +13,8 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 @Component
+@EqualsAndHashCode
+@ToString
 public class ConnectionManager {
 
     private final String username;
@@ -21,10 +25,14 @@ public class ConnectionManager {
 
     private static BlockingQueue<Connection> pool;
 
-    public ConnectionManager(@Value("${db.username}") String username,
-                             @Value("${db.password}") String password,
-                             @Value("${db.url}") String url,
-                             @Value("${db.pool.size}") String poolSize) {
+    public ConnectionManager(//@Value("${db.username}")
+                             String username,
+                             //@Value("${db.password}")
+                             String password,
+                             //@Value("${db.url}")
+                             String url,
+                             //@Value("${db.pool.size}")
+                             String poolSize) {
         this.username = username;
         this.password = password;
         this.url = url;

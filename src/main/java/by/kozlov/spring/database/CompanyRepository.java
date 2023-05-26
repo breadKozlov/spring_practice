@@ -3,6 +3,7 @@ package by.kozlov.spring.database;
 import by.kozlov.spring.entity.Company;
 import by.kozlov.spring.exception.DaoException;
 import by.kozlov.spring.utils.ConnectionManager;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 
 import java.sql.ResultSet;
@@ -16,7 +17,7 @@ public class CompanyRepository {
 
     private final ConnectionManager connectionManager;
 
-    public CompanyRepository(ConnectionManager connectionManager) {
+    public CompanyRepository(@Qualifier("connectionManager") ConnectionManager connectionManager) {
         this.connectionManager = connectionManager;
     }
 

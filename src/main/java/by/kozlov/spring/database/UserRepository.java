@@ -5,6 +5,7 @@ import by.kozlov.spring.entity.User;
 import by.kozlov.spring.exception.DaoException;
 import by.kozlov.spring.utils.ConnectionManager;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 
 import java.sql.ResultSet;
@@ -18,7 +19,7 @@ public class UserRepository {
 
     private final ConnectionManager connectionManager;
 
-    public UserRepository(ConnectionManager connectionManager) {
+    public UserRepository(@Qualifier("connectionManager") ConnectionManager connectionManager) {
         this.connectionManager = connectionManager;
     }
 
